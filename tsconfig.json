@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2019", "dom"],
+    "sourceMap":true,
+    "moduleResolution":"Node",
+    "outDir":".",
+    "experimentalDecorators":true
+  },
+  "files": ["./index.ts"],
+//  "extends":"@tsconfig/node16/tsconfig.json",
+  "compileOnSave":true,
+  "exclude": ["node_modules"]
+}
